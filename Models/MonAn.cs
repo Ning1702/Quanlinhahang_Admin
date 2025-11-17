@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Quanlinhahang.Models
+namespace Quanlinhahang_Admin.Models
 {
     [Table("MonAn")]
     public class MonAn

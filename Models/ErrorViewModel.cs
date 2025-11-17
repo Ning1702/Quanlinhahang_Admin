@@ -1,4 +1,4 @@
-namespace Quanlinhahang.Models
+namespace Quanlinhahang_Admin.Models
 {
     public class ErrorViewModel
     {

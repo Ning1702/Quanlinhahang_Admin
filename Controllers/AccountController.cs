@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
-using Quanlinhahang.Data;
+using Quanlinhahang_Admin.Data;
 using System.Linq;
 
-namespace Quanlinhahang.Controllers
+namespace Quanlinhahang_Admin.Controllers
 {
     public class AccountController : Controller
     {

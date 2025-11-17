@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Quanlinhahang.Models;
+namespace Quanlinhahang_Admin.Models;
 
 public partial class KhungGio
 {

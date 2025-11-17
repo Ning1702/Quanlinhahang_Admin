@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
-using Quanlinhahang.Data;
+using Quanlinhahang_Admin.Data;
 
-namespace Quanlinhahang.Areas.Admin.Controllers
+namespace Quanlinhahang_Admin.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]

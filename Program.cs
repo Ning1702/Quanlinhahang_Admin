@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.EntityFrameworkCore;
-using Quanlinhahang.Data;
+using Quanlinhahang_Admin.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

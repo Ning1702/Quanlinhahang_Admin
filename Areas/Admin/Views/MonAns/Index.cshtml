@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Quanlinhahang.Models.MonAn>
+﻿@model IEnumerable<Quanlinhahang_Admin.Models.MonAn>
 
 @{
     ViewData["Title"] = "Quản lý món ăn";
@@ -32,7 +32,7 @@
             <select name="DanhMucID" class="form-select me-2"
                     style="width:200px; border-radius:8px; border:1px solid #ced4da; padding:6px 10px;">
                 <option value="">-- Tất cả danh mục --</option>
-                @foreach (var dm in (ViewBag.DanhMucList as List<Quanlinhahang.Models.DanhMucMon>) ?? new List<Quanlinhahang.Models.DanhMucMon>())
+                @foreach (var dm in (ViewBag.DanhMucList as List<Quanlinhahang_Admin.Models.DanhMucMon>) ?? new List<Quanlinhahang_Admin.Models.DanhMucMon>())
                 {
                     <option value="@dm.DanhMucID" selected="@(ViewBag.SelectedDanhMuc == dm.DanhMucID)">
                         @dm.TenDanhMuc

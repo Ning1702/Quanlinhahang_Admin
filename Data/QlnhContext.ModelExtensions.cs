@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Quanlinhahang.Models;
+using Quanlinhahang_Admin.Models;
 
-namespace Quanlinhahang.Data
+namespace Quanlinhahang_Admin.Data
 {
     public partial class QlnhContext
     {

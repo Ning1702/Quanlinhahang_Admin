@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
-using Quanlinhahang.Data;
-using Quanlinhahang.Models;
+using Quanlinhahang_Admin.Data;
+using Quanlinhahang_Admin.Models;
 
-namespace Quanlinhahang.Areas.Admin.Controllers
+namespace Quanlinhahang_Admin.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]

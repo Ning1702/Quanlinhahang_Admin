@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Quanlinhahang.Models;
+using Quanlinhahang_Admin.Models;
 
-namespace Quanlinhahang.Controllers
+namespace Quanlinhahang_Admin.Controllers
 {
     public class HomeController : Controller
     {

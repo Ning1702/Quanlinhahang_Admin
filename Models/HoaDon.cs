@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Quanlinhahang.Models
+namespace Quanlinhahang_Admin.Models
 {
     public partial class HoaDon
     {
